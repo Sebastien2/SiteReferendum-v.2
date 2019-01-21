@@ -1,7 +1,7 @@
 <?php
-define('SQL_DSN', 'mysql:dbname=db735871295;host=db735871295.db.1and1.com');
-define('SQL_USERNAME', 'dbo735871295');
-define('SQL_PASSWORD', 'Boule2Suif!');
+define('SQL_DSN', 'mysql:dbname=**************;host=*************');
+define('SQL_USERNAME', '**********');
+define('SQL_PASSWORD', '**********');
 
 $module=(empty($module)) ? !empty($_GET['module']) ? $_GET['module'] : 'index' :$module;
 
